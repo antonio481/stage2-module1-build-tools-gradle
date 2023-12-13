@@ -8,7 +8,7 @@ java {
 }
 
 repositories {
-    mavenCentral() implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.10'// provide repository, where required dependencies are located
+    mavenCentral() // provide repository, where required dependencies are located
 }
 
 publishing {
